@@ -13,6 +13,12 @@ body {
 	background-repeat: repeat-x;
 	animation: animate 5s linear infinite;
 }
+.bg h1 {
+	color:white; 
+	font-size:50px; 
+	padding:70px;
+}
+
 .car {
 	position: absolute;
 	bottom: 12px;
