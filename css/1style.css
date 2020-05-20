@@ -18,6 +18,8 @@ body {
 	background: pink;
 	transition: 1s;
 	box-shadow: inset 300px 0 50px lightblue;
+	border: 1px solid darkblue;
+	border-radius: 10px;
 }
 .card:hover {
 	transform: perspective(2000px) rotate(-10deg);  /*TILT*/
@@ -45,13 +47,16 @@ p {
 	width: 300px;
 	height: 400px;
 	border: 1px solid #000;
+	border-radius: 10px;
 	transform-origin: left;
 	z-index: 1000;
 	transition: 1s
+
 }
 .card .textBox:hover {
 	transform: rotateY(150deg);
 }
+
 h2 {
 	position: absolute;
 	font-size: 35px;
